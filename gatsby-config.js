@@ -3,7 +3,6 @@ module.exports = {
     title: 'Dreaming of Thailand',
     description: 'Travels in the Land of Smiles',
   },
-  pathPrefix: '/dreaming-of-thailand-blog',
   plugins: [
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-styled-components',
@@ -31,3 +30,5 @@ module.exports = {
     'gatsby-plugin-sharp'
   ],
 }
+
+// pathPrefix: '/dreaming-of-thailand-blog',
