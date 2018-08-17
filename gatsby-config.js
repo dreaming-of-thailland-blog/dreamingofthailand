@@ -3,7 +3,7 @@ module.exports = {
     title: 'Dreaming of Thailand',
     description: 'Travels in the Land of Smiles',
   },
-  pathPrefix: '/thailand',
+  pathPrefix: '/dreaming-of-thailand-blog',
   plugins: [
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-styled-components',

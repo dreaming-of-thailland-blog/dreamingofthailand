@@ -763,7 +763,7 @@
       "resolve": "/Users/michaelcastor/projects/dreaming-of-thailand-blog",
       "id": "Plugin default-site-plugin",
       "name": "default-site-plugin",
-      "version": "cc45d0771ff450b3e29cba9ef54880d8",
+      "version": "91bb2016f92b14384f538847b8e0c883",
       "pluginOptions": {
         "plugins": []
       },
@@ -831,6 +831,10 @@
         ],
         "devDependencies": [
           {
+            "name": "gh-pages",
+            "version": "^1.2.0"
+          },
+          {
             "name": "prettier",
             "version": "^1.13.7"
           }
@@ -842,7 +846,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "ef2ce904ef67f8466d629cef02454d58",
+        "contentDigest": "8f2b3596b518118dec2e313caf4a6b00",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -934,14 +938,14 @@
         "title": "Dreaming of Thailand",
         "description": "Travels in the Land of Smiles"
       },
-      "pathPrefix": "",
+      "pathPrefix": "/thailand",
       "polyfill": true,
-      "buildTime": "2018-08-17T18:22:33.191Z",
+      "buildTime": "2018-08-17T19:38:10.203Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "a020eb828854f4b4516a962eca7ef9d8",
+        "contentDigest": "e7171848019947a252beff0108b2d8e8",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -951,7 +955,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "af85d738a02e3f405f9623e7fb93a4a8",
+        "contentDigest": "14030d0efbaaa89842ccd807c33155d0",
         "type": "Directory",
         "description": "Directory \"src\"",
         "owner": "gatsby-source-filesystem"
@@ -963,7 +967,7 @@
       "size": 224,
       "prettySize": "224 B",
       "modifiedTime": "2018-08-16T23:56:19.103Z",
-      "accessTime": "2018-08-17T18:22:35.168Z",
+      "accessTime": "2018-08-17T19:38:14.006Z",
       "changeTime": "2018-08-16T23:56:19.103Z",
       "birthTime": "2018-08-16T17:52:41.807Z",
       "root": "/",
@@ -981,57 +985,13 @@
       "blksize": 4194304,
       "ino": 12224577,
       "blocks": 0,
-      "atimeMs": 1534530155167.565,
+      "atimeMs": 1534534694005.984,
       "mtimeMs": 1534463779102.8777,
       "ctimeMs": 1534463779102.8777,
       "birthtimeMs": 1534441961806.867,
-      "atime": "2018-08-17T18:22:35.168Z",
+      "atime": "2018-08-17T19:38:14.006Z",
       "mtime": "2018-08-16T23:56:19.103Z",
       "ctime": "2018-08-16T23:56:19.103Z",
-      "birthtime": "2018-08-16T17:52:41.807Z"
-    },
-    "/Users/michaelcastor/projects/dreaming-of-thailand-blog/src/components absPath of file": {
-      "id": "/Users/michaelcastor/projects/dreaming-of-thailand-blog/src/components absPath of file",
-      "children": [],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "71875cdd07acde31d20fe08d84a76c06",
-        "type": "Directory",
-        "description": "Directory \"src/components\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "src",
-      "absolutePath": "/Users/michaelcastor/projects/dreaming-of-thailand-blog/src/components",
-      "relativePath": "components",
-      "extension": "",
-      "size": 128,
-      "prettySize": "128 B",
-      "modifiedTime": "2018-08-17T18:10:05.598Z",
-      "accessTime": "2018-08-17T18:22:35.171Z",
-      "changeTime": "2018-08-17T18:10:05.598Z",
-      "birthTime": "2018-08-16T17:52:41.807Z",
-      "root": "/",
-      "dir": "/Users/michaelcastor/projects/dreaming-of-thailand-blog/src",
-      "base": "components",
-      "ext": "",
-      "name": "components",
-      "relativeDirectory": "",
-      "dev": 16777220,
-      "mode": 16877,
-      "nlink": 4,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4194304,
-      "ino": 12224578,
-      "blocks": 0,
-      "atimeMs": 1534530155170.584,
-      "mtimeMs": 1534529405597.9346,
-      "ctimeMs": 1534529405597.9346,
-      "birthtimeMs": 1534441961806.9065,
-      "atime": "2018-08-17T18:22:35.171Z",
-      "mtime": "2018-08-17T18:10:05.598Z",
-      "ctime": "2018-08-17T18:10:05.598Z",
       "birthtime": "2018-08-16T17:52:41.807Z"
     },
     "/Users/michaelcastor/projects/dreaming-of-thailand-blog/src/images absPath of file": {
@@ -1039,7 +999,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "b82c0d6cb5199330388ce5bfd784da37",
+        "contentDigest": "152d1892ab2944849140c81bb79c6db8",
         "type": "Directory",
         "description": "Directory \"src/images\"",
         "owner": "gatsby-source-filesystem"
@@ -1051,7 +1011,7 @@
       "size": 160,
       "prettySize": "160 B",
       "modifiedTime": "2018-08-17T02:46:54.608Z",
-      "accessTime": "2018-08-17T18:22:35.290Z",
+      "accessTime": "2018-08-17T19:38:14.141Z",
       "changeTime": "2018-08-17T02:46:54.608Z",
       "birthTime": "2018-08-16T18:34:27.940Z",
       "root": "/",
@@ -1069,21 +1029,65 @@
       "blksize": 4194304,
       "ino": 12256935,
       "blocks": 0,
-      "atimeMs": 1534530155289.6062,
+      "atimeMs": 1534534694140.6929,
       "mtimeMs": 1534474014607.829,
       "ctimeMs": 1534474014607.829,
       "birthtimeMs": 1534444467939.5466,
-      "atime": "2018-08-17T18:22:35.290Z",
+      "atime": "2018-08-17T19:38:14.141Z",
       "mtime": "2018-08-17T02:46:54.608Z",
       "ctime": "2018-08-17T02:46:54.608Z",
       "birthtime": "2018-08-16T18:34:27.940Z"
+    },
+    "/Users/michaelcastor/projects/dreaming-of-thailand-blog/src/components absPath of file": {
+      "id": "/Users/michaelcastor/projects/dreaming-of-thailand-blog/src/components absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "f3aacab19c8fb52c39eb982df2d803b3",
+        "type": "Directory",
+        "description": "Directory \"src/components\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/michaelcastor/projects/dreaming-of-thailand-blog/src/components",
+      "relativePath": "components",
+      "extension": "",
+      "size": 128,
+      "prettySize": "128 B",
+      "modifiedTime": "2018-08-17T18:10:05.598Z",
+      "accessTime": "2018-08-17T19:38:14.009Z",
+      "changeTime": "2018-08-17T18:10:05.598Z",
+      "birthTime": "2018-08-16T17:52:41.807Z",
+      "root": "/",
+      "dir": "/Users/michaelcastor/projects/dreaming-of-thailand-blog/src",
+      "base": "components",
+      "ext": "",
+      "name": "components",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 16877,
+      "nlink": 4,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 12224578,
+      "blocks": 0,
+      "atimeMs": 1534534694008.9583,
+      "mtimeMs": 1534529405597.9346,
+      "ctimeMs": 1534529405597.9346,
+      "birthtimeMs": 1534441961806.9065,
+      "atime": "2018-08-17T19:38:14.009Z",
+      "mtime": "2018-08-17T18:10:05.598Z",
+      "ctime": "2018-08-17T18:10:05.598Z",
+      "birthtime": "2018-08-16T17:52:41.807Z"
     },
     "/Users/michaelcastor/projects/dreaming-of-thailand-blog/src/layouts absPath of file": {
       "id": "/Users/michaelcastor/projects/dreaming-of-thailand-blog/src/layouts absPath of file",
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "fa4cea56aaf5f9863da3941c45febd2d",
+        "contentDigest": "ca85a9ec7ccd5b8deff1e7e6101a6e55",
         "type": "Directory",
         "description": "Directory \"src/layouts\"",
         "owner": "gatsby-source-filesystem"
@@ -1095,7 +1099,7 @@
       "size": 128,
       "prettySize": "128 B",
       "modifiedTime": "2018-08-17T02:49:50.874Z",
-      "accessTime": "2018-08-17T18:22:35.171Z",
+      "accessTime": "2018-08-17T19:38:14.009Z",
       "changeTime": "2018-08-17T02:49:50.874Z",
       "birthTime": "2018-08-16T17:52:41.807Z",
       "root": "/",
@@ -1113,11 +1117,11 @@
       "blksize": 4194304,
       "ino": 12224580,
       "blocks": 0,
-      "atimeMs": 1534530155170.6172,
+      "atimeMs": 1534534694008.9949,
       "mtimeMs": 1534474190874.4553,
       "ctimeMs": 1534474190874.4553,
       "birthtimeMs": 1534441961807.1072,
-      "atime": "2018-08-17T18:22:35.171Z",
+      "atime": "2018-08-17T19:38:14.009Z",
       "mtime": "2018-08-17T02:49:50.874Z",
       "ctime": "2018-08-17T02:49:50.874Z",
       "birthtime": "2018-08-16T17:52:41.807Z"
@@ -1127,7 +1131,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "418d1c778db44b83d61ccdef530fe07f",
+        "contentDigest": "3849985b8ed0d0136f9e3d7f74f0d414",
         "type": "Directory",
         "description": "Directory \"src/pages\"",
         "owner": "gatsby-source-filesystem"
@@ -1139,7 +1143,7 @@
       "size": 160,
       "prettySize": "160 B",
       "modifiedTime": "2018-08-17T18:18:40.007Z",
-      "accessTime": "2018-08-17T18:22:35.171Z",
+      "accessTime": "2018-08-17T19:38:14.009Z",
       "changeTime": "2018-08-17T18:18:40.007Z",
       "birthTime": "2018-08-16T17:52:41.808Z",
       "root": "/",
@@ -1157,11 +1161,11 @@
       "blksize": 4194304,
       "ino": 12224583,
       "blocks": 0,
-      "atimeMs": 1534530155170.623,
+      "atimeMs": 1534534694009.009,
       "mtimeMs": 1534529920006.6516,
       "ctimeMs": 1534529920006.6516,
       "birthtimeMs": 1534441961807.5537,
-      "atime": "2018-08-17T18:22:35.171Z",
+      "atime": "2018-08-17T19:38:14.009Z",
       "mtime": "2018-08-17T18:18:40.007Z",
       "ctime": "2018-08-17T18:18:40.007Z",
       "birthtime": "2018-08-16T17:52:41.808Z"
@@ -1171,7 +1175,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "b201ae93ce075a75dbea6d4cdefd7625",
+        "contentDigest": "d43c8106d8ec74c5f05847d1ca281a63",
         "type": "Directory",
         "description": "Directory \"src/posts\"",
         "owner": "gatsby-source-filesystem"
@@ -1183,7 +1187,7 @@
       "size": 160,
       "prettySize": "160 B",
       "modifiedTime": "2018-08-17T18:14:09.491Z",
-      "accessTime": "2018-08-17T18:22:35.171Z",
+      "accessTime": "2018-08-17T19:38:14.009Z",
       "changeTime": "2018-08-17T18:14:09.491Z",
       "birthTime": "2018-08-16T23:56:19.103Z",
       "root": "/",
@@ -1201,11 +1205,11 @@
       "blksize": 4194304,
       "ino": 12308531,
       "blocks": 0,
-      "atimeMs": 1534530155170.6865,
+      "atimeMs": 1534534694009.025,
       "mtimeMs": 1534529649490.9229,
       "ctimeMs": 1534529649490.9229,
       "birthtimeMs": 1534463779102.866,
-      "atime": "2018-08-17T18:22:35.171Z",
+      "atime": "2018-08-17T19:38:14.009Z",
       "mtime": "2018-08-17T18:14:09.491Z",
       "ctime": "2018-08-17T18:14:09.491Z",
       "birthtime": "2018-08-16T23:56:19.103Z"
@@ -1215,7 +1219,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "4695591081e9537fc1db452a92ba5e44",
+        "contentDigest": "418e5ae1e9e99b2ea9ee5a4caa4e7126",
         "type": "Directory",
         "description": "Directory \"src/components/Posts\"",
         "owner": "gatsby-source-filesystem"
@@ -1227,7 +1231,7 @@
       "size": 96,
       "prettySize": "96 B",
       "modifiedTime": "2018-08-17T02:03:29.516Z",
-      "accessTime": "2018-08-17T18:22:35.172Z",
+      "accessTime": "2018-08-17T19:38:14.011Z",
       "changeTime": "2018-08-17T02:03:29.516Z",
       "birthTime": "2018-08-16T23:58:33.715Z",
       "root": "/",
@@ -1245,11 +1249,11 @@
       "blksize": 4194304,
       "ino": 12308627,
       "blocks": 0,
-      "atimeMs": 1534530155171.787,
+      "atimeMs": 1534534694010.8262,
       "mtimeMs": 1534471409516.131,
       "ctimeMs": 1534471409516.131,
       "birthtimeMs": 1534463913715.2073,
-      "atime": "2018-08-17T18:22:35.172Z",
+      "atime": "2018-08-17T19:38:14.011Z",
       "mtime": "2018-08-17T02:03:29.516Z",
       "ctime": "2018-08-17T02:03:29.516Z",
       "birthtime": "2018-08-16T23:58:33.715Z"
@@ -1272,7 +1276,7 @@
       "size": 2685,
       "prettySize": "2.69 kB",
       "modifiedTime": "2018-08-17T18:10:05.597Z",
-      "accessTime": "2018-08-17T18:10:05.596Z",
+      "accessTime": "2018-08-17T19:30:53.264Z",
       "changeTime": "2018-08-17T18:10:05.598Z",
       "birthTime": "2018-08-17T18:10:05.596Z",
       "root": "/",
@@ -1290,11 +1294,11 @@
       "blksize": 4194304,
       "ino": 12333850,
       "blocks": 8,
-      "atimeMs": 1534529405596.459,
+      "atimeMs": 1534534253264.2085,
       "mtimeMs": 1534529405596.7883,
       "ctimeMs": 1534529405597.7637,
       "birthtimeMs": 1534529405596.459,
-      "atime": "2018-08-17T18:10:05.596Z",
+      "atime": "2018-08-17T19:30:53.264Z",
       "mtime": "2018-08-17T18:10:05.597Z",
       "ctime": "2018-08-17T18:10:05.598Z",
       "birthtime": "2018-08-17T18:10:05.596Z"
@@ -1317,7 +1321,7 @@
       "size": 14522,
       "prettySize": "14.5 kB",
       "modifiedTime": "2017-07-31T16:26:40.000Z",
-      "accessTime": "2018-08-17T01:33:21.122Z",
+      "accessTime": "2018-08-17T19:30:24.246Z",
       "changeTime": "2018-08-16T18:35:11.910Z",
       "birthTime": "2017-07-31T16:26:40.000Z",
       "root": "/",
@@ -1335,11 +1339,11 @@
       "blksize": 4194304,
       "ino": 12257389,
       "blocks": 32,
-      "atimeMs": 1534469601121.8247,
+      "atimeMs": 1534534224246.2356,
       "mtimeMs": 1501518400000,
       "ctimeMs": 1534444511909.6145,
       "birthtimeMs": 1501518400000,
-      "atime": "2018-08-17T01:33:21.122Z",
+      "atime": "2018-08-17T19:30:24.246Z",
       "mtime": "2017-07-31T16:26:40.000Z",
       "ctime": "2018-08-16T18:35:11.910Z",
       "birthtime": "2017-07-31T16:26:40.000Z"
@@ -1362,7 +1366,7 @@
       "size": 11244,
       "prettySize": "11.2 kB",
       "modifiedTime": "2018-08-16T17:52:41.807Z",
-      "accessTime": "2018-08-17T01:33:25.653Z",
+      "accessTime": "2018-08-17T19:30:24.246Z",
       "changeTime": "2018-08-16T17:52:41.807Z",
       "birthTime": "2018-08-16T17:52:41.807Z",
       "root": "/",
@@ -1380,11 +1384,11 @@
       "blksize": 4194304,
       "ino": 12224581,
       "blocks": 24,
-      "atimeMs": 1534469605653.016,
+      "atimeMs": 1534534224246.4192,
       "mtimeMs": 1534441961807.2483,
       "ctimeMs": 1534441961807.2483,
       "birthtimeMs": 1534441961807.157,
-      "atime": "2018-08-17T01:33:25.653Z",
+      "atime": "2018-08-17T19:30:24.246Z",
       "mtime": "2018-08-16T17:52:41.807Z",
       "ctime": "2018-08-16T17:52:41.807Z",
       "birthtime": "2018-08-16T17:52:41.807Z"
@@ -1407,7 +1411,7 @@
       "size": 1002,
       "prettySize": "1 kB",
       "modifiedTime": "2018-08-17T02:49:50.873Z",
-      "accessTime": "2018-08-17T02:49:50.873Z",
+      "accessTime": "2018-08-17T19:30:24.247Z",
       "changeTime": "2018-08-17T02:49:50.874Z",
       "birthTime": "2018-08-17T02:49:50.873Z",
       "root": "/",
@@ -1425,11 +1429,11 @@
       "blksize": 4194304,
       "ino": 12323441,
       "blocks": 8,
-      "atimeMs": 1534474190872.9258,
+      "atimeMs": 1534534224246.5308,
       "mtimeMs": 1534474190873.2803,
       "ctimeMs": 1534474190874.289,
       "birthtimeMs": 1534474190872.9258,
-      "atime": "2018-08-17T02:49:50.873Z",
+      "atime": "2018-08-17T19:30:24.247Z",
       "mtime": "2018-08-17T02:49:50.873Z",
       "ctime": "2018-08-17T02:49:50.874Z",
       "birthtime": "2018-08-17T02:49:50.873Z"
@@ -1452,7 +1456,7 @@
       "size": 198,
       "prettySize": "198 B",
       "modifiedTime": "2018-08-16T17:52:41.808Z",
-      "accessTime": "2018-08-17T01:37:43.404Z",
+      "accessTime": "2018-08-17T19:30:24.247Z",
       "changeTime": "2018-08-16T17:52:41.808Z",
       "birthTime": "2018-08-16T17:52:41.808Z",
       "root": "/",
@@ -1470,11 +1474,11 @@
       "blksize": 4194304,
       "ino": 12224584,
       "blocks": 8,
-      "atimeMs": 1534469863404.384,
+      "atimeMs": 1534534224246.5854,
       "mtimeMs": 1534441961807.6682,
       "ctimeMs": 1534441961807.6682,
       "birthtimeMs": 1534441961807.604,
-      "atime": "2018-08-17T01:37:43.404Z",
+      "atime": "2018-08-17T19:30:24.247Z",
       "mtime": "2018-08-16T17:52:41.808Z",
       "ctime": "2018-08-16T17:52:41.808Z",
       "birthtime": "2018-08-16T17:52:41.808Z"
@@ -1497,7 +1501,7 @@
       "size": 815,
       "prettySize": "815 B",
       "modifiedTime": "2018-08-16T18:26:31.412Z",
-      "accessTime": "2018-08-17T01:40:23.704Z",
+      "accessTime": "2018-08-17T19:30:24.247Z",
       "changeTime": "2018-08-16T18:26:31.413Z",
       "birthTime": "2018-08-16T18:26:31.412Z",
       "root": "/",
@@ -1515,11 +1519,11 @@
       "blksize": 4194304,
       "ino": 12256674,
       "blocks": 8,
-      "atimeMs": 1534470023703.9255,
+      "atimeMs": 1534534224246.6143,
       "mtimeMs": 1534443991411.8723,
       "ctimeMs": 1534443991412.5435,
       "birthtimeMs": 1534443991411.642,
-      "atime": "2018-08-17T01:40:23.704Z",
+      "atime": "2018-08-17T19:30:24.247Z",
       "mtime": "2018-08-16T18:26:31.412Z",
       "ctime": "2018-08-16T18:26:31.413Z",
       "birthtime": "2018-08-16T18:26:31.412Z"
@@ -1542,7 +1546,7 @@
       "size": 806,
       "prettySize": "806 B",
       "modifiedTime": "2018-08-17T18:18:40.005Z",
-      "accessTime": "2018-08-17T18:18:40.005Z",
+      "accessTime": "2018-08-17T19:30:24.247Z",
       "changeTime": "2018-08-17T18:18:40.007Z",
       "birthTime": "2018-08-17T18:18:40.005Z",
       "root": "/",
@@ -1560,11 +1564,11 @@
       "blksize": 4194304,
       "ino": 12334141,
       "blocks": 8,
-      "atimeMs": 1534529920004.6177,
+      "atimeMs": 1534534224246.6414,
       "mtimeMs": 1534529920004.7363,
       "ctimeMs": 1534529920006.5532,
       "birthtimeMs": 1534529920004.6177,
-      "atime": "2018-08-17T18:18:40.005Z",
+      "atime": "2018-08-17T19:30:24.247Z",
       "mtime": "2018-08-17T18:18:40.005Z",
       "ctime": "2018-08-17T18:18:40.007Z",
       "birthtime": "2018-08-17T18:18:40.005Z"
@@ -1587,7 +1591,7 @@
       "size": 697,
       "prettySize": "697 B",
       "modifiedTime": "2018-08-17T02:00:48.382Z",
-      "accessTime": "2018-08-17T02:00:48.382Z",
+      "accessTime": "2018-08-17T19:30:24.247Z",
       "changeTime": "2018-08-17T02:00:48.385Z",
       "birthTime": "2018-08-17T02:00:48.382Z",
       "root": "/",
@@ -1605,11 +1609,11 @@
       "blksize": 4194304,
       "ino": 12322672,
       "blocks": 8,
-      "atimeMs": 1534471248382.095,
+      "atimeMs": 1534534224246.6765,
       "mtimeMs": 1534471248382.4275,
       "ctimeMs": 1534471248384.8286,
       "birthtimeMs": 1534471248382.095,
-      "atime": "2018-08-17T02:00:48.382Z",
+      "atime": "2018-08-17T19:30:24.247Z",
       "mtime": "2018-08-17T02:00:48.382Z",
       "ctime": "2018-08-17T02:00:48.385Z",
       "birthtime": "2018-08-17T02:00:48.382Z"
@@ -1634,7 +1638,7 @@
       "size": 1363,
       "prettySize": "1.36 kB",
       "modifiedTime": "2018-08-17T02:39:11.863Z",
-      "accessTime": "2018-08-17T02:39:11.862Z",
+      "accessTime": "2018-08-17T19:30:24.247Z",
       "changeTime": "2018-08-17T02:39:11.865Z",
       "birthTime": "2018-08-17T02:39:11.862Z",
       "root": "/",
@@ -1652,14 +1656,61 @@
       "blksize": 4194304,
       "ino": 12323054,
       "blocks": 8,
-      "atimeMs": 1534473551862.3699,
+      "atimeMs": 1534534224246.7012,
       "mtimeMs": 1534473551862.6306,
       "ctimeMs": 1534473551864.8872,
       "birthtimeMs": 1534473551862.3699,
-      "atime": "2018-08-17T02:39:11.862Z",
+      "atime": "2018-08-17T19:30:24.247Z",
       "mtime": "2018-08-17T02:39:11.863Z",
       "ctime": "2018-08-17T02:39:11.865Z",
       "birthtime": "2018-08-17T02:39:11.862Z"
+    },
+    "/Users/michaelcastor/projects/dreaming-of-thailand-blog/src/posts/second-post.md absPath of file": {
+      "id": "/Users/michaelcastor/projects/dreaming-of-thailand-blog/src/posts/second-post.md absPath of file",
+      "children": [
+        "/Users/michaelcastor/projects/dreaming-of-thailand-blog/src/posts/second-post.md absPath of file >>> MarkdownRemark"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "2030eed6c92a31ea7f82d7600951e157",
+        "mediaType": "text/markdown",
+        "type": "File",
+        "description": "File \"src/posts/second-post.md\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/michaelcastor/projects/dreaming-of-thailand-blog/src/posts/second-post.md",
+      "relativePath": "posts/second-post.md",
+      "extension": "md",
+      "size": 1200,
+      "prettySize": "1.2 kB",
+      "modifiedTime": "2018-08-17T18:14:09.488Z",
+      "accessTime": "2018-08-17T19:30:24.247Z",
+      "changeTime": "2018-08-17T18:14:09.491Z",
+      "birthTime": "2018-08-17T18:14:09.488Z",
+      "root": "/",
+      "dir": "/Users/michaelcastor/projects/dreaming-of-thailand-blog/src/posts",
+      "base": "second-post.md",
+      "ext": ".md",
+      "name": "second-post",
+      "relativeDirectory": "posts",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 12333950,
+      "blocks": 8,
+      "atimeMs": 1534534224246.7244,
+      "mtimeMs": 1534529649488.3389,
+      "ctimeMs": 1534529649490.7095,
+      "birthtimeMs": 1534529649488.0193,
+      "atime": "2018-08-17T19:30:24.247Z",
+      "mtime": "2018-08-17T18:14:09.488Z",
+      "ctime": "2018-08-17T18:14:09.491Z",
+      "birthtime": "2018-08-17T18:14:09.488Z"
     },
     "/Users/michaelcastor/projects/dreaming-of-thailand-blog/src/components/Posts/PostListing.js absPath of file": {
       "id": "/Users/michaelcastor/projects/dreaming-of-thailand-blog/src/components/Posts/PostListing.js absPath of file",
@@ -1679,7 +1730,7 @@
       "size": 304,
       "prettySize": "304 B",
       "modifiedTime": "2018-08-17T02:03:29.515Z",
-      "accessTime": "2018-08-17T02:03:29.515Z",
+      "accessTime": "2018-08-17T19:30:53.268Z",
       "changeTime": "2018-08-17T02:03:29.516Z",
       "birthTime": "2018-08-17T02:03:29.515Z",
       "root": "/",
@@ -1697,71 +1748,14 @@
       "blksize": 4194304,
       "ino": 12322764,
       "blocks": 8,
-      "atimeMs": 1534471409514.7588,
+      "atimeMs": 1534534253267.925,
       "mtimeMs": 1534471409515.0151,
       "ctimeMs": 1534471409515.9597,
       "birthtimeMs": 1534471409514.7588,
-      "atime": "2018-08-17T02:03:29.515Z",
+      "atime": "2018-08-17T19:30:53.268Z",
       "mtime": "2018-08-17T02:03:29.515Z",
       "ctime": "2018-08-17T02:03:29.516Z",
       "birthtime": "2018-08-17T02:03:29.515Z"
-    },
-    "/Users/michaelcastor/projects/dreaming-of-thailand-blog/src/images/bg.jpeg absPath of file": {
-      "id": "/Users/michaelcastor/projects/dreaming-of-thailand-blog/src/images/bg.jpeg absPath of file",
-      "children": [
-        "/Users/michaelcastor/projects/dreaming-of-thailand-blog/src/images/bg.jpeg absPath of file >> ImageSharp"
-      ],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "6b6971baeb8265aadc7f014edaa6ff31",
-        "mediaType": "image/jpeg",
-        "type": "File",
-        "description": "File \"src/images/bg.jpeg\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "src",
-      "absolutePath": "/Users/michaelcastor/projects/dreaming-of-thailand-blog/src/images/bg.jpeg",
-      "relativePath": "images/bg.jpeg",
-      "extension": "jpeg",
-      "size": 19555308,
-      "prettySize": "19.6 MB",
-      "modifiedTime": "2018-02-21T18:06:26.000Z",
-      "accessTime": "2018-08-17T01:35:23.906Z",
-      "changeTime": "2018-08-16T23:04:07.338Z",
-      "birthTime": "2018-02-21T18:06:26.000Z",
-      "root": "/",
-      "dir": "/Users/michaelcastor/projects/dreaming-of-thailand-blog/src/images",
-      "base": "bg.jpeg",
-      "ext": ".jpeg",
-      "name": "bg",
-      "relativeDirectory": "images",
-      "dev": 16777220,
-      "mode": 33206,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4194304,
-      "ino": 12257390,
-      "blocks": 38200,
-      "atimeMs": 1534469723906.1316,
-      "mtimeMs": 1519236386000,
-      "ctimeMs": 1534460647338.2593,
-      "birthtimeMs": 1519236386000,
-      "atime": "2018-08-17T01:35:23.906Z",
-      "mtime": "2018-02-21T18:06:26.000Z",
-      "ctime": "2018-08-16T23:04:07.338Z",
-      "birthtime": "2018-02-21T18:06:26.000Z"
-    },
-    "/Users/michaelcastor/projects/dreaming-of-thailand-blog/src/images/bg.jpeg absPath of file >> ImageSharp": {
-      "id": "/Users/michaelcastor/projects/dreaming-of-thailand-blog/src/images/bg.jpeg absPath of file >> ImageSharp",
-      "children": [],
-      "parent": "/Users/michaelcastor/projects/dreaming-of-thailand-blog/src/images/bg.jpeg absPath of file",
-      "internal": {
-        "contentDigest": "6b6971baeb8265aadc7f014edaa6ff31",
-        "type": "ImageSharp",
-        "owner": "gatsby-transformer-sharp"
-      }
     },
     "/Users/michaelcastor/projects/dreaming-of-thailand-blog/src/posts/post.md absPath of file >>> MarkdownRemark": {
       "id": "/Users/michaelcastor/projects/dreaming-of-thailand-blog/src/posts/post.md absPath of file >>> MarkdownRemark",
@@ -1789,110 +1783,6 @@
         "slug": "/posts/post/"
       }
     },
-    "/Users/michaelcastor/projects/dreaming-of-thailand-blog/src/images/rice-field.jpeg absPath of file": {
-      "id": "/Users/michaelcastor/projects/dreaming-of-thailand-blog/src/images/rice-field.jpeg absPath of file",
-      "children": [
-        "/Users/michaelcastor/projects/dreaming-of-thailand-blog/src/images/rice-field.jpeg absPath of file >> ImageSharp"
-      ],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "69f4ca9abea6ec6d65280e04b38e0bb1",
-        "mediaType": "image/jpeg",
-        "type": "File",
-        "description": "File \"src/images/rice-field.jpeg\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "src",
-      "absolutePath": "/Users/michaelcastor/projects/dreaming-of-thailand-blog/src/images/rice-field.jpeg",
-      "relativePath": "images/rice-field.jpeg",
-      "extension": "jpeg",
-      "size": 1055666,
-      "prettySize": "1.06 MB",
-      "modifiedTime": "2018-08-15T22:52:00.446Z",
-      "accessTime": "2018-08-17T02:46:54.608Z",
-      "changeTime": "2018-08-17T02:46:54.608Z",
-      "birthTime": "2018-08-15T22:52:00.059Z",
-      "root": "/",
-      "dir": "/Users/michaelcastor/projects/dreaming-of-thailand-blog/src/images",
-      "base": "rice-field.jpeg",
-      "ext": ".jpeg",
-      "name": "rice-field",
-      "relativeDirectory": "images",
-      "dev": 16777220,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4194304,
-      "ino": 12215185,
-      "blocks": 2064,
-      "atimeMs": 1534474014607.6592,
-      "mtimeMs": 1534373520446.2751,
-      "ctimeMs": 1534474014607.829,
-      "birthtimeMs": 1534373520059.0078,
-      "atime": "2018-08-17T02:46:54.608Z",
-      "mtime": "2018-08-15T22:52:00.446Z",
-      "ctime": "2018-08-17T02:46:54.608Z",
-      "birthtime": "2018-08-15T22:52:00.059Z"
-    },
-    "/Users/michaelcastor/projects/dreaming-of-thailand-blog/src/images/rice-field.jpeg absPath of file >> ImageSharp": {
-      "id": "/Users/michaelcastor/projects/dreaming-of-thailand-blog/src/images/rice-field.jpeg absPath of file >> ImageSharp",
-      "children": [],
-      "parent": "/Users/michaelcastor/projects/dreaming-of-thailand-blog/src/images/rice-field.jpeg absPath of file",
-      "internal": {
-        "contentDigest": "69f4ca9abea6ec6d65280e04b38e0bb1",
-        "type": "ImageSharp",
-        "owner": "gatsby-transformer-sharp"
-      }
-    },
-    "/Users/michaelcastor/projects/dreaming-of-thailand-blog/src/posts/second-post.md absPath of file": {
-      "id": "/Users/michaelcastor/projects/dreaming-of-thailand-blog/src/posts/second-post.md absPath of file",
-      "children": [
-        "/Users/michaelcastor/projects/dreaming-of-thailand-blog/src/posts/second-post.md absPath of file >>> MarkdownRemark"
-      ],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "2030eed6c92a31ea7f82d7600951e157",
-        "mediaType": "text/markdown",
-        "type": "File",
-        "description": "File \"src/posts/second-post.md\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "src",
-      "absolutePath": "/Users/michaelcastor/projects/dreaming-of-thailand-blog/src/posts/second-post.md",
-      "relativePath": "posts/second-post.md",
-      "extension": "md",
-      "size": 1200,
-      "prettySize": "1.2 kB",
-      "modifiedTime": "2018-08-17T18:14:09.488Z",
-      "accessTime": "2018-08-17T18:14:09.488Z",
-      "changeTime": "2018-08-17T18:14:09.491Z",
-      "birthTime": "2018-08-17T18:14:09.488Z",
-      "root": "/",
-      "dir": "/Users/michaelcastor/projects/dreaming-of-thailand-blog/src/posts",
-      "base": "second-post.md",
-      "ext": ".md",
-      "name": "second-post",
-      "relativeDirectory": "posts",
-      "dev": 16777220,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4194304,
-      "ino": 12333950,
-      "blocks": 8,
-      "atimeMs": 1534529649488.0193,
-      "mtimeMs": 1534529649488.3389,
-      "ctimeMs": 1534529649490.7095,
-      "birthtimeMs": 1534529649488.0193,
-      "atime": "2018-08-17T18:14:09.488Z",
-      "mtime": "2018-08-17T18:14:09.488Z",
-      "ctime": "2018-08-17T18:14:09.491Z",
-      "birthtime": "2018-08-17T18:14:09.488Z"
-    },
     "/Users/michaelcastor/projects/dreaming-of-thailand-blog/src/posts/second-post.md absPath of file >>> MarkdownRemark": {
       "id": "/Users/michaelcastor/projects/dreaming-of-thailand-blog/src/posts/second-post.md absPath of file >>> MarkdownRemark",
       "children": [],
@@ -1919,6 +1809,120 @@
         "slug": "/posts/second-post/"
       }
     },
+    "/Users/michaelcastor/projects/dreaming-of-thailand-blog/src/images/rice-field.jpeg absPath of file": {
+      "id": "/Users/michaelcastor/projects/dreaming-of-thailand-blog/src/images/rice-field.jpeg absPath of file",
+      "children": [
+        "/Users/michaelcastor/projects/dreaming-of-thailand-blog/src/images/rice-field.jpeg absPath of file >> ImageSharp"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "69f4ca9abea6ec6d65280e04b38e0bb1",
+        "mediaType": "image/jpeg",
+        "type": "File",
+        "description": "File \"src/images/rice-field.jpeg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/michaelcastor/projects/dreaming-of-thailand-blog/src/images/rice-field.jpeg",
+      "relativePath": "images/rice-field.jpeg",
+      "extension": "jpeg",
+      "size": 1055666,
+      "prettySize": "1.06 MB",
+      "modifiedTime": "2018-08-15T22:52:00.446Z",
+      "accessTime": "2018-08-17T19:30:24.246Z",
+      "changeTime": "2018-08-17T02:46:54.608Z",
+      "birthTime": "2018-08-15T22:52:00.059Z",
+      "root": "/",
+      "dir": "/Users/michaelcastor/projects/dreaming-of-thailand-blog/src/images",
+      "base": "rice-field.jpeg",
+      "ext": ".jpeg",
+      "name": "rice-field",
+      "relativeDirectory": "images",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 12215185,
+      "blocks": 2064,
+      "atimeMs": 1534534224246.286,
+      "mtimeMs": 1534373520446.2751,
+      "ctimeMs": 1534474014607.829,
+      "birthtimeMs": 1534373520059.0078,
+      "atime": "2018-08-17T19:30:24.246Z",
+      "mtime": "2018-08-15T22:52:00.446Z",
+      "ctime": "2018-08-17T02:46:54.608Z",
+      "birthtime": "2018-08-15T22:52:00.059Z"
+    },
+    "/Users/michaelcastor/projects/dreaming-of-thailand-blog/src/images/rice-field.jpeg absPath of file >> ImageSharp": {
+      "id": "/Users/michaelcastor/projects/dreaming-of-thailand-blog/src/images/rice-field.jpeg absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/Users/michaelcastor/projects/dreaming-of-thailand-blog/src/images/rice-field.jpeg absPath of file",
+      "internal": {
+        "contentDigest": "69f4ca9abea6ec6d65280e04b38e0bb1",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
+    "/Users/michaelcastor/projects/dreaming-of-thailand-blog/src/images/bg.jpeg absPath of file": {
+      "id": "/Users/michaelcastor/projects/dreaming-of-thailand-blog/src/images/bg.jpeg absPath of file",
+      "children": [
+        "/Users/michaelcastor/projects/dreaming-of-thailand-blog/src/images/bg.jpeg absPath of file >> ImageSharp"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "6b6971baeb8265aadc7f014edaa6ff31",
+        "mediaType": "image/jpeg",
+        "type": "File",
+        "description": "File \"src/images/bg.jpeg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/michaelcastor/projects/dreaming-of-thailand-blog/src/images/bg.jpeg",
+      "relativePath": "images/bg.jpeg",
+      "extension": "jpeg",
+      "size": 19555308,
+      "prettySize": "19.6 MB",
+      "modifiedTime": "2018-02-21T18:06:26.000Z",
+      "accessTime": "2018-08-17T19:30:24.245Z",
+      "changeTime": "2018-08-16T23:04:07.338Z",
+      "birthTime": "2018-02-21T18:06:26.000Z",
+      "root": "/",
+      "dir": "/Users/michaelcastor/projects/dreaming-of-thailand-blog/src/images",
+      "base": "bg.jpeg",
+      "ext": ".jpeg",
+      "name": "bg",
+      "relativeDirectory": "images",
+      "dev": 16777220,
+      "mode": 33206,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 12257390,
+      "blocks": 38200,
+      "atimeMs": 1534534224244.913,
+      "mtimeMs": 1519236386000,
+      "ctimeMs": 1534460647338.2593,
+      "birthtimeMs": 1519236386000,
+      "atime": "2018-08-17T19:30:24.245Z",
+      "mtime": "2018-02-21T18:06:26.000Z",
+      "ctime": "2018-08-16T23:04:07.338Z",
+      "birthtime": "2018-02-21T18:06:26.000Z"
+    },
+    "/Users/michaelcastor/projects/dreaming-of-thailand-blog/src/images/bg.jpeg absPath of file >> ImageSharp": {
+      "id": "/Users/michaelcastor/projects/dreaming-of-thailand-blog/src/images/bg.jpeg absPath of file >> ImageSharp",
+      "children": [],
+      "parent": "/Users/michaelcastor/projects/dreaming-of-thailand-blog/src/images/bg.jpeg absPath of file",
+      "internal": {
+        "contentDigest": "6b6971baeb8265aadc7f014edaa6ff31",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
     "SitePage /posts/post/": {
       "layout": "index",
       "jsonName": "posts-post.json",
@@ -1937,7 +1941,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "a71c45c9e17d33298acaf0386d1a900b",
+        "contentDigest": "274198521ffea84bd847556fed583dd9",
         "description": "Your site's \"gatsby-node.js\"",
         "owner": "internal-data-bridge"
       }
@@ -1960,7 +1964,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "cde6f54f26bb7cda8c44a99badc1c16b",
+        "contentDigest": "bfeabc9dd2adbdb9566c913dd167a219",
         "description": "Your site's \"gatsby-node.js\"",
         "owner": "internal-data-bridge"
       }
@@ -1981,7 +1985,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "f2f90d66f8a5cd42b260bb353a9dea8e",
+        "contentDigest": "eb4de21b312df0d98a55ebda96863f7c",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -2002,7 +2006,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "66699af543424e795073be525e68c30d",
+        "contentDigest": "9fc12d4afa802684b93a11c3d176d7b0",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -2023,7 +2027,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "7c1abfa0f217ec6bc6caf688fe28d1e2",
+        "contentDigest": "b3b9ea2a5d8945045825afa98db844d9",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -2044,7 +2048,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "87f6221b4cb808fbcbb79d6749dc0467",
+        "contentDigest": "5906eb98e9d83aa4970efe65b3a5a6ab",
         "description": "Plugin prod-404",
         "owner": "internal-data-bridge"
       }
@@ -2052,44 +2056,28 @@
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "5e176da3222131a39fbbf1a103c0b042"
+    "PLUGINS_HASH": "822af3d7d286ef535bb4c81f9c97bb6d"
   },
   "componentDataDependencies": {
     "nodes": {
-      "Site": [
-        "LAYOUT___index",
-        "/"
-      ],
-      "/Users/michaelcastor/projects/dreaming-of-thailand-blog/src/images/bg.jpeg absPath of file >> ImageSharp": [
-        "LAYOUT___index"
-      ],
-      "/Users/michaelcastor/projects/dreaming-of-thailand-blog/src/images/bg.jpeg absPath of file": [
-        null
-      ],
       "/Users/michaelcastor/projects/dreaming-of-thailand-blog/src/posts/post.md absPath of file >>> MarkdownRemark": [
         "/posts/post/"
       ],
-      "/Users/michaelcastor/projects/dreaming-of-thailand-blog/src/images/Rice Field.jpg absPath of file >> ImageSharp": [
-        "LAYOUT___index"
+      "/Users/michaelcastor/projects/dreaming-of-thailand-blog/src/posts/second-post.md absPath of file >>> MarkdownRemark": [
+        "/posts/second-post/"
       ],
-      "/Users/michaelcastor/projects/dreaming-of-thailand-blog/src/images/Rice Field.jpg absPath of file": [
-        null
+      "Site": [
+        "/",
+        "LAYOUT___index"
       ],
       "/Users/michaelcastor/projects/dreaming-of-thailand-blog/src/images/rice-field.jpeg absPath of file >> ImageSharp": [
         "LAYOUT___index"
       ],
       "/Users/michaelcastor/projects/dreaming-of-thailand-blog/src/images/rice-field.jpeg absPath of file": [
-        null,
         null
-      ],
-      "/Users/michaelcastor/projects/dreaming-of-thailand-blog/src/posts/second-post.md absPath of file >>> MarkdownRemark": [
-        "/posts/second-post/"
       ]
     },
     "connections": {
-      "SitePage": [
-        "/dev-404-page/"
-      ],
       "MarkdownRemark": [
         "/"
       ]
