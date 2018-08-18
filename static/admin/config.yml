@@ -3,6 +3,7 @@ backend:
   repo: dreaming-of-thailland-blog/dreamingofthailand
 
 media_folder: static/assets
+public_folder: /assets
 
 collections:
   - name: post
@@ -14,4 +15,3 @@ collections:
       - { name: date, label: Create At, widget: date }
       - { name: body, label: Post, widget: markdown }
       - { name: image, label: Image, widget: image }
-      

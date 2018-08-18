@@ -7,4 +7,4 @@ This is from the netlify CMS!!!
 
 
 
-![Meow!](/static/assets/new_text_image.jpg)
+![Meow](/assets/kittah.jpeg)

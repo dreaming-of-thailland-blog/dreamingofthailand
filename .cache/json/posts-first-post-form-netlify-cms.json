@@ -1,1 +1,1 @@
-{"data":{"markdownRemark":{"html":"<p>This is from the netlify CMS!!!</p>","frontmatter":{"title":"First Post form Netlify CMS!!!","date":"August 17 2018"}}},"pathContext":{"slug":"/posts/first-post-form-netlify-cms/"}}
+{"data":{"markdownRemark":{"html":"<p>This is from the netlify CMS!!!</p>\n<p><img src=\"/assets/kittah.jpeg\" alt=\"Meow\"></p>","frontmatter":{"title":"First Post form Netlify CMS!!!","date":"August 17 2018"}}},"pathContext":{"slug":"/posts/first-post-form-netlify-cms/"}}
