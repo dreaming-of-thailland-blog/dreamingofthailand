@@ -1,5 +1,6 @@
 backend:
-  name: test-repo
+  name: github
+  repo: dreaming-of-thailland-blog/dreamingofthailand
 
 media_folder: static/assets
 
