@@ -1,4 +1,7 @@
-var plugins = []
+var plugins = [{
+      plugin: require('/Users/michaelcastor/projects/dreaming-of-thailand-blog/node_modules/gatsby-plugin-netlify-cms/gatsby-browser'),
+      options: {"plugins":[]},
+    }]
 // During bootstrap, we write requires at top of this file which looks
 // basically like:
 // var plugins = [

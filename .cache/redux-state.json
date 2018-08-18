@@ -1,13 +1,23 @@
 {
   "nodes": {
     "SitePage /dev-404-page/": {
+      "layout": "index",
+      "jsonName": "dev-404-page.json",
+      "internalComponentName": "ComponentDev404Page",
       "path": "/dev-404-page/",
+      "component": "/Users/michaelcastor/projects/dreaming-of-thailand-blog/.cache/dev-404-page.js",
+      "componentChunkName": "component---cache-dev-404-page-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin dev-404-page",
+      "pluginCreatorId": "Plugin dev-404-page",
+      "componentPath": "/Users/michaelcastor/projects/dreaming-of-thailand-blog/.cache/dev-404-page.js",
       "id": "SitePage /dev-404-page/",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "f91d29e10ba680b413138cf9ed86e655",
+        "contentDigest": "bc6c75b03ac3dc527e6ef5da92c58383",
+        "description": "Plugin dev-404-page",
         "owner": "internal-data-bridge"
       }
     },
@@ -759,11 +769,93 @@
         "owner": "internal-data-bridge"
       }
     },
+    "Plugin gatsby-plugin-netlify-cms": {
+      "resolve": "/Users/michaelcastor/projects/dreaming-of-thailand-blog/node_modules/gatsby-plugin-netlify-cms",
+      "id": "Plugin gatsby-plugin-netlify-cms",
+      "name": "gatsby-plugin-netlify-cms",
+      "version": "2.0.1",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "modifyWebpackConfig"
+      ],
+      "browserAPIs": [
+        "onInitialClientRender"
+      ],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/michaelcastor/projects/dreaming-of-thailand-blog/node_modules/gatsby-plugin-netlify-cms",
+      "packageJson": {
+        "name": "gatsby-plugin-netlify-cms",
+        "description": "A Gatsby plugin which generates the Netlify CMS single page app",
+        "version": "2.0.1",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "netlify",
+          "netlify-cms",
+          "cms"
+        ],
+        "author": {
+          "name": "Shawn Erquhart",
+          "email": "shawn@erquh.art"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "html-webpack-include-assets-plugin",
+            "version": "^1.0.2"
+          },
+          {
+            "name": "html-webpack-plugin",
+            "version": "^2.30.1"
+          },
+          {
+            "name": "netlify-identity-widget",
+            "version": "^1.4.11"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.3"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "extract-text-webpack-plugin",
+            "version": "^1.0.1"
+          },
+          {
+            "name": "gatsby",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "netlify-cms",
+            "version": "^1.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "1a13f393f2569a0d431dcc8684d8a447",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
     "Plugin default-site-plugin": {
       "resolve": "/Users/michaelcastor/projects/dreaming-of-thailand-blog",
       "id": "Plugin default-site-plugin",
       "name": "default-site-plugin",
-      "version": "b93eabbb8718ddfdf8932e6e25123e70",
+      "version": "78f670cb3fadc6ef3b4666e85fc62550",
       "pluginOptions": {
         "plugins": []
       },
@@ -797,6 +889,10 @@
             "version": "^1.6.46"
           },
           {
+            "name": "gatsby-plugin-netlify-cms",
+            "version": "^2.0.1"
+          },
+          {
             "name": "gatsby-plugin-react-helmet",
             "version": "^2.0.11"
           },
@@ -819,6 +915,10 @@
           {
             "name": "gatsby-transformer-sharp",
             "version": "^1.6.27"
+          },
+          {
+            "name": "netlify-cms",
+            "version": "^1.9.3"
           },
           {
             "name": "react-helmet",
@@ -846,7 +946,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "0f1a02c068f26015ed5acb66523f4b40",
+        "contentDigest": "f5b1cc065f944c173378855efd91a2d6",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -938,14 +1038,16 @@
         "title": "Dreaming of Thailand",
         "description": "Travels in the Land of Smiles"
       },
+      "port": "8000",
+      "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-08-17T20:02:53.777Z",
+      "buildTime": "2018-08-18T02:56:43.449Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "03adafe4722a2e0c314e057e388b49d9",
+        "contentDigest": "4b60124489d82dcad55a7b49a1aee301",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -955,7 +1057,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "494c0beb22c90948b42b0fc934eacce5",
+        "contentDigest": "cb1e42a05ca2e622ba9f132e384df977",
         "type": "Directory",
         "description": "Directory \"src\"",
         "owner": "gatsby-source-filesystem"
@@ -967,7 +1069,7 @@
       "size": 224,
       "prettySize": "224 B",
       "modifiedTime": "2018-08-16T23:56:19.103Z",
-      "accessTime": "2018-08-17T20:02:57.146Z",
+      "accessTime": "2018-08-18T02:56:45.165Z",
       "changeTime": "2018-08-16T23:56:19.103Z",
       "birthTime": "2018-08-16T17:52:41.807Z",
       "root": "/",
@@ -985,11 +1087,11 @@
       "blksize": 4194304,
       "ino": 12224577,
       "blocks": 0,
-      "atimeMs": 1534536177145.6545,
+      "atimeMs": 1534561005164.889,
       "mtimeMs": 1534463779102.8777,
       "ctimeMs": 1534463779102.8777,
       "birthtimeMs": 1534441961806.867,
-      "atime": "2018-08-17T20:02:57.146Z",
+      "atime": "2018-08-18T02:56:45.165Z",
       "mtime": "2018-08-16T23:56:19.103Z",
       "ctime": "2018-08-16T23:56:19.103Z",
       "birthtime": "2018-08-16T17:52:41.807Z"
@@ -999,7 +1101,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "7bb1537647f36c77f6d93dd675887699",
+        "contentDigest": "fd4ecdcc093691b8a80c7c4f72fbf7a4",
         "type": "Directory",
         "description": "Directory \"src/components\"",
         "owner": "gatsby-source-filesystem"
@@ -1011,7 +1113,7 @@
       "size": 128,
       "prettySize": "128 B",
       "modifiedTime": "2018-08-17T18:10:05.598Z",
-      "accessTime": "2018-08-17T20:02:57.148Z",
+      "accessTime": "2018-08-18T02:56:45.167Z",
       "changeTime": "2018-08-17T18:10:05.598Z",
       "birthTime": "2018-08-16T17:52:41.807Z",
       "root": "/",
@@ -1029,11 +1131,11 @@
       "blksize": 4194304,
       "ino": 12224578,
       "blocks": 0,
-      "atimeMs": 1534536177147.5935,
+      "atimeMs": 1534561005167.4192,
       "mtimeMs": 1534529405597.9346,
       "ctimeMs": 1534529405597.9346,
       "birthtimeMs": 1534441961806.9065,
-      "atime": "2018-08-17T20:02:57.148Z",
+      "atime": "2018-08-18T02:56:45.167Z",
       "mtime": "2018-08-17T18:10:05.598Z",
       "ctime": "2018-08-17T18:10:05.598Z",
       "birthtime": "2018-08-16T17:52:41.807Z"
@@ -1043,7 +1145,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "e4e19d118fcd53e8398696e62fd7bbbd",
+        "contentDigest": "d5e49d8e9e44f59fe0264133f4edbb78",
         "type": "Directory",
         "description": "Directory \"src/images\"",
         "owner": "gatsby-source-filesystem"
@@ -1055,7 +1157,7 @@
       "size": 160,
       "prettySize": "160 B",
       "modifiedTime": "2018-08-17T02:46:54.608Z",
-      "accessTime": "2018-08-17T20:02:57.271Z",
+      "accessTime": "2018-08-18T02:56:45.278Z",
       "changeTime": "2018-08-17T02:46:54.608Z",
       "birthTime": "2018-08-16T18:34:27.940Z",
       "root": "/",
@@ -1073,11 +1175,11 @@
       "blksize": 4194304,
       "ino": 12256935,
       "blocks": 0,
-      "atimeMs": 1534536177270.8337,
+      "atimeMs": 1534561005278.368,
       "mtimeMs": 1534474014607.829,
       "ctimeMs": 1534474014607.829,
       "birthtimeMs": 1534444467939.5466,
-      "atime": "2018-08-17T20:02:57.271Z",
+      "atime": "2018-08-18T02:56:45.278Z",
       "mtime": "2018-08-17T02:46:54.608Z",
       "ctime": "2018-08-17T02:46:54.608Z",
       "birthtime": "2018-08-16T18:34:27.940Z"
@@ -1087,7 +1189,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "d97b6d40e6cd06268540b723c6676e5a",
+        "contentDigest": "ed94f1b0aedad3ed02c7146e921fbd3e",
         "type": "Directory",
         "description": "Directory \"src/layouts\"",
         "owner": "gatsby-source-filesystem"
@@ -1099,7 +1201,7 @@
       "size": 128,
       "prettySize": "128 B",
       "modifiedTime": "2018-08-17T02:49:50.874Z",
-      "accessTime": "2018-08-17T20:02:57.148Z",
+      "accessTime": "2018-08-18T02:56:45.167Z",
       "changeTime": "2018-08-17T02:49:50.874Z",
       "birthTime": "2018-08-16T17:52:41.807Z",
       "root": "/",
@@ -1117,11 +1219,11 @@
       "blksize": 4194304,
       "ino": 12224580,
       "blocks": 0,
-      "atimeMs": 1534536177147.62,
+      "atimeMs": 1534561005167.4373,
       "mtimeMs": 1534474190874.4553,
       "ctimeMs": 1534474190874.4553,
       "birthtimeMs": 1534441961807.1072,
-      "atime": "2018-08-17T20:02:57.148Z",
+      "atime": "2018-08-18T02:56:45.167Z",
       "mtime": "2018-08-17T02:49:50.874Z",
       "ctime": "2018-08-17T02:49:50.874Z",
       "birthtime": "2018-08-16T17:52:41.807Z"
@@ -1131,7 +1233,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "bcf4209e7532906ccccfd9b4eeeceed0",
+        "contentDigest": "5de600202da2f999f21519c36186a1f3",
         "type": "Directory",
         "description": "Directory \"src/pages\"",
         "owner": "gatsby-source-filesystem"
@@ -1143,7 +1245,7 @@
       "size": 160,
       "prettySize": "160 B",
       "modifiedTime": "2018-08-17T18:18:40.007Z",
-      "accessTime": "2018-08-17T20:02:57.148Z",
+      "accessTime": "2018-08-18T02:56:45.167Z",
       "changeTime": "2018-08-17T18:18:40.007Z",
       "birthTime": "2018-08-16T17:52:41.808Z",
       "root": "/",
@@ -1161,11 +1263,11 @@
       "blksize": 4194304,
       "ino": 12224583,
       "blocks": 0,
-      "atimeMs": 1534536177147.6333,
+      "atimeMs": 1534561005167.473,
       "mtimeMs": 1534529920006.6516,
       "ctimeMs": 1534529920006.6516,
       "birthtimeMs": 1534441961807.5537,
-      "atime": "2018-08-17T20:02:57.148Z",
+      "atime": "2018-08-18T02:56:45.167Z",
       "mtime": "2018-08-17T18:18:40.007Z",
       "ctime": "2018-08-17T18:18:40.007Z",
       "birthtime": "2018-08-16T17:52:41.808Z"
@@ -1175,7 +1277,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "520705d7208475180a03517c2807a90e",
+        "contentDigest": "5e26fd9095e594655fcdded04b8af2c4",
         "type": "Directory",
         "description": "Directory \"src/posts\"",
         "owner": "gatsby-source-filesystem"
@@ -1186,9 +1288,9 @@
       "extension": "",
       "size": 160,
       "prettySize": "160 B",
-      "modifiedTime": "2018-08-17T18:14:09.491Z",
-      "accessTime": "2018-08-17T20:02:57.148Z",
-      "changeTime": "2018-08-17T18:14:09.491Z",
+      "modifiedTime": "2018-08-17T20:30:19.939Z",
+      "accessTime": "2018-08-18T02:56:45.167Z",
+      "changeTime": "2018-08-17T20:30:19.939Z",
       "birthTime": "2018-08-16T23:56:19.103Z",
       "root": "/",
       "dir": "/Users/michaelcastor/projects/dreaming-of-thailand-blog/src",
@@ -1205,13 +1307,13 @@
       "blksize": 4194304,
       "ino": 12308531,
       "blocks": 0,
-      "atimeMs": 1534536177147.651,
-      "mtimeMs": 1534529649490.9229,
-      "ctimeMs": 1534529649490.9229,
+      "atimeMs": 1534561005167.495,
+      "mtimeMs": 1534537819939.203,
+      "ctimeMs": 1534537819939.203,
       "birthtimeMs": 1534463779102.866,
-      "atime": "2018-08-17T20:02:57.148Z",
-      "mtime": "2018-08-17T18:14:09.491Z",
-      "ctime": "2018-08-17T18:14:09.491Z",
+      "atime": "2018-08-18T02:56:45.167Z",
+      "mtime": "2018-08-17T20:30:19.939Z",
+      "ctime": "2018-08-17T20:30:19.939Z",
       "birthtime": "2018-08-16T23:56:19.103Z"
     },
     "/Users/michaelcastor/projects/dreaming-of-thailand-blog/src/components/Posts absPath of file": {
@@ -1219,7 +1321,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "e053043d9aa5de441a677f40e6bfd878",
+        "contentDigest": "5ff6cc3452392b92faaeaf056d7fb415",
         "type": "Directory",
         "description": "Directory \"src/components/Posts\"",
         "owner": "gatsby-source-filesystem"
@@ -1231,7 +1333,7 @@
       "size": 96,
       "prettySize": "96 B",
       "modifiedTime": "2018-08-17T02:03:29.516Z",
-      "accessTime": "2018-08-17T20:02:57.149Z",
+      "accessTime": "2018-08-18T02:56:45.169Z",
       "changeTime": "2018-08-17T02:03:29.516Z",
       "birthTime": "2018-08-16T23:58:33.715Z",
       "root": "/",
@@ -1249,11 +1351,11 @@
       "blksize": 4194304,
       "ino": 12308627,
       "blocks": 0,
-      "atimeMs": 1534536177148.8047,
+      "atimeMs": 1534561005168.9202,
       "mtimeMs": 1534471409516.131,
       "ctimeMs": 1534471409516.131,
       "birthtimeMs": 1534463913715.2073,
-      "atime": "2018-08-17T20:02:57.149Z",
+      "atime": "2018-08-18T02:56:45.169Z",
       "mtime": "2018-08-17T02:03:29.516Z",
       "ctime": "2018-08-17T02:03:29.516Z",
       "birthtime": "2018-08-16T23:58:33.715Z"
@@ -1276,7 +1378,7 @@
       "size": 2685,
       "prettySize": "2.69 kB",
       "modifiedTime": "2018-08-17T18:10:05.597Z",
-      "accessTime": "2018-08-17T19:44:01.440Z",
+      "accessTime": "2018-08-18T02:55:00.923Z",
       "changeTime": "2018-08-17T18:10:05.598Z",
       "birthTime": "2018-08-17T18:10:05.596Z",
       "root": "/",
@@ -1294,59 +1396,14 @@
       "blksize": 4194304,
       "ino": 12333850,
       "blocks": 8,
-      "atimeMs": 1534535041439.762,
+      "atimeMs": 1534560900922.9087,
       "mtimeMs": 1534529405596.7883,
       "ctimeMs": 1534529405597.7637,
       "birthtimeMs": 1534529405596.459,
-      "atime": "2018-08-17T19:44:01.440Z",
+      "atime": "2018-08-18T02:55:00.923Z",
       "mtime": "2018-08-17T18:10:05.597Z",
       "ctime": "2018-08-17T18:10:05.598Z",
       "birthtime": "2018-08-17T18:10:05.596Z"
-    },
-    "/Users/michaelcastor/projects/dreaming-of-thailand-blog/src/images/logo.svg absPath of file": {
-      "id": "/Users/michaelcastor/projects/dreaming-of-thailand-blog/src/images/logo.svg absPath of file",
-      "children": [],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "7665f742d9402c726ad0cd313e098ef8",
-        "mediaType": "image/svg+xml",
-        "type": "File",
-        "description": "File \"src/images/logo.svg\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "src",
-      "absolutePath": "/Users/michaelcastor/projects/dreaming-of-thailand-blog/src/images/logo.svg",
-      "relativePath": "images/logo.svg",
-      "extension": "svg",
-      "size": 14522,
-      "prettySize": "14.5 kB",
-      "modifiedTime": "2017-07-31T16:26:40.000Z",
-      "accessTime": "2018-08-17T19:42:14.217Z",
-      "changeTime": "2018-08-16T18:35:11.910Z",
-      "birthTime": "2017-07-31T16:26:40.000Z",
-      "root": "/",
-      "dir": "/Users/michaelcastor/projects/dreaming-of-thailand-blog/src/images",
-      "base": "logo.svg",
-      "ext": ".svg",
-      "name": "logo",
-      "relativeDirectory": "images",
-      "dev": 16777220,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4194304,
-      "ino": 12257389,
-      "blocks": 32,
-      "atimeMs": 1534534934217.466,
-      "mtimeMs": 1501518400000,
-      "ctimeMs": 1534444511909.6145,
-      "birthtimeMs": 1501518400000,
-      "atime": "2018-08-17T19:42:14.217Z",
-      "mtime": "2017-07-31T16:26:40.000Z",
-      "ctime": "2018-08-16T18:35:11.910Z",
-      "birthtime": "2017-07-31T16:26:40.000Z"
     },
     "/Users/michaelcastor/projects/dreaming-of-thailand-blog/src/layouts/index.css absPath of file": {
       "id": "/Users/michaelcastor/projects/dreaming-of-thailand-blog/src/layouts/index.css absPath of file",
@@ -1366,7 +1423,7 @@
       "size": 11244,
       "prettySize": "11.2 kB",
       "modifiedTime": "2018-08-16T17:52:41.807Z",
-      "accessTime": "2018-08-17T19:42:25.675Z",
+      "accessTime": "2018-08-18T02:54:21.374Z",
       "changeTime": "2018-08-16T17:52:41.807Z",
       "birthTime": "2018-08-16T17:52:41.807Z",
       "root": "/",
@@ -1384,11 +1441,11 @@
       "blksize": 4194304,
       "ino": 12224581,
       "blocks": 24,
-      "atimeMs": 1534534945675.418,
+      "atimeMs": 1534560861374.2937,
       "mtimeMs": 1534441961807.2483,
       "ctimeMs": 1534441961807.2483,
       "birthtimeMs": 1534441961807.157,
-      "atime": "2018-08-17T19:42:25.675Z",
+      "atime": "2018-08-18T02:54:21.374Z",
       "mtime": "2018-08-16T17:52:41.807Z",
       "ctime": "2018-08-16T17:52:41.807Z",
       "birthtime": "2018-08-16T17:52:41.807Z"
@@ -1411,7 +1468,7 @@
       "size": 1002,
       "prettySize": "1 kB",
       "modifiedTime": "2018-08-17T02:49:50.873Z",
-      "accessTime": "2018-08-17T19:44:01.440Z",
+      "accessTime": "2018-08-18T02:54:21.575Z",
       "changeTime": "2018-08-17T02:49:50.874Z",
       "birthTime": "2018-08-17T02:49:50.873Z",
       "root": "/",
@@ -1429,14 +1486,59 @@
       "blksize": 4194304,
       "ino": 12323441,
       "blocks": 8,
-      "atimeMs": 1534535041439.8071,
+      "atimeMs": 1534560861575.4478,
       "mtimeMs": 1534474190873.2803,
       "ctimeMs": 1534474190874.289,
       "birthtimeMs": 1534474190872.9258,
-      "atime": "2018-08-17T19:44:01.440Z",
+      "atime": "2018-08-18T02:54:21.575Z",
       "mtime": "2018-08-17T02:49:50.873Z",
       "ctime": "2018-08-17T02:49:50.874Z",
       "birthtime": "2018-08-17T02:49:50.873Z"
+    },
+    "/Users/michaelcastor/projects/dreaming-of-thailand-blog/src/images/logo.svg absPath of file": {
+      "id": "/Users/michaelcastor/projects/dreaming-of-thailand-blog/src/images/logo.svg absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "7665f742d9402c726ad0cd313e098ef8",
+        "mediaType": "image/svg+xml",
+        "type": "File",
+        "description": "File \"src/images/logo.svg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/michaelcastor/projects/dreaming-of-thailand-blog/src/images/logo.svg",
+      "relativePath": "images/logo.svg",
+      "extension": "svg",
+      "size": 14522,
+      "prettySize": "14.5 kB",
+      "modifiedTime": "2017-07-31T16:26:40.000Z",
+      "accessTime": "2018-08-18T02:54:21.532Z",
+      "changeTime": "2018-08-16T18:35:11.910Z",
+      "birthTime": "2017-07-31T16:26:40.000Z",
+      "root": "/",
+      "dir": "/Users/michaelcastor/projects/dreaming-of-thailand-blog/src/images",
+      "base": "logo.svg",
+      "ext": ".svg",
+      "name": "logo",
+      "relativeDirectory": "images",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 12257389,
+      "blocks": 32,
+      "atimeMs": 1534560861531.9185,
+      "mtimeMs": 1501518400000,
+      "ctimeMs": 1534444511909.6145,
+      "birthtimeMs": 1501518400000,
+      "atime": "2018-08-18T02:54:21.532Z",
+      "mtime": "2017-07-31T16:26:40.000Z",
+      "ctime": "2018-08-16T18:35:11.910Z",
+      "birthtime": "2017-07-31T16:26:40.000Z"
     },
     "/Users/michaelcastor/projects/dreaming-of-thailand-blog/src/pages/404.js absPath of file": {
       "id": "/Users/michaelcastor/projects/dreaming-of-thailand-blog/src/pages/404.js absPath of file",
@@ -1456,7 +1558,7 @@
       "size": 198,
       "prettySize": "198 B",
       "modifiedTime": "2018-08-16T17:52:41.808Z",
-      "accessTime": "2018-08-17T19:44:01.440Z",
+      "accessTime": "2018-08-18T02:54:21.575Z",
       "changeTime": "2018-08-16T17:52:41.808Z",
       "birthTime": "2018-08-16T17:52:41.808Z",
       "root": "/",
@@ -1474,11 +1576,11 @@
       "blksize": 4194304,
       "ino": 12224584,
       "blocks": 8,
-      "atimeMs": 1534535041439.8206,
+      "atimeMs": 1534560861575.0752,
       "mtimeMs": 1534441961807.6682,
       "ctimeMs": 1534441961807.6682,
       "birthtimeMs": 1534441961807.604,
-      "atime": "2018-08-17T19:44:01.440Z",
+      "atime": "2018-08-18T02:54:21.575Z",
       "mtime": "2018-08-16T17:52:41.808Z",
       "ctime": "2018-08-16T17:52:41.808Z",
       "birthtime": "2018-08-16T17:52:41.808Z"
@@ -1501,7 +1603,7 @@
       "size": 815,
       "prettySize": "815 B",
       "modifiedTime": "2018-08-16T18:26:31.412Z",
-      "accessTime": "2018-08-17T19:44:01.440Z",
+      "accessTime": "2018-08-18T02:54:21.575Z",
       "changeTime": "2018-08-16T18:26:31.413Z",
       "birthTime": "2018-08-16T18:26:31.412Z",
       "root": "/",
@@ -1519,11 +1621,11 @@
       "blksize": 4194304,
       "ino": 12256674,
       "blocks": 8,
-      "atimeMs": 1534535041439.8289,
+      "atimeMs": 1534560861575.098,
       "mtimeMs": 1534443991411.8723,
       "ctimeMs": 1534443991412.5435,
       "birthtimeMs": 1534443991411.642,
-      "atime": "2018-08-17T19:44:01.440Z",
+      "atime": "2018-08-18T02:54:21.575Z",
       "mtime": "2018-08-16T18:26:31.412Z",
       "ctime": "2018-08-16T18:26:31.413Z",
       "birthtime": "2018-08-16T18:26:31.412Z"
@@ -1546,7 +1648,7 @@
       "size": 806,
       "prettySize": "806 B",
       "modifiedTime": "2018-08-17T18:18:40.005Z",
-      "accessTime": "2018-08-17T19:44:01.440Z",
+      "accessTime": "2018-08-18T02:54:21.575Z",
       "changeTime": "2018-08-17T18:18:40.007Z",
       "birthTime": "2018-08-17T18:18:40.005Z",
       "root": "/",
@@ -1564,11 +1666,11 @@
       "blksize": 4194304,
       "ino": 12334141,
       "blocks": 8,
-      "atimeMs": 1534535041439.8357,
+      "atimeMs": 1534560861575.12,
       "mtimeMs": 1534529920004.7363,
       "ctimeMs": 1534529920006.5532,
       "birthtimeMs": 1534529920004.6177,
-      "atime": "2018-08-17T19:44:01.440Z",
+      "atime": "2018-08-18T02:54:21.575Z",
       "mtime": "2018-08-17T18:18:40.005Z",
       "ctime": "2018-08-17T18:18:40.007Z",
       "birthtime": "2018-08-17T18:18:40.005Z"
@@ -1591,7 +1693,7 @@
       "size": 697,
       "prettySize": "697 B",
       "modifiedTime": "2018-08-17T02:00:48.382Z",
-      "accessTime": "2018-08-17T19:44:01.440Z",
+      "accessTime": "2018-08-18T02:54:21.575Z",
       "changeTime": "2018-08-17T02:00:48.385Z",
       "birthTime": "2018-08-17T02:00:48.382Z",
       "root": "/",
@@ -1609,11 +1711,11 @@
       "blksize": 4194304,
       "ino": 12322672,
       "blocks": 8,
-      "atimeMs": 1534535041439.851,
+      "atimeMs": 1534560861574.9976,
       "mtimeMs": 1534471248382.4275,
       "ctimeMs": 1534471248384.8286,
       "birthtimeMs": 1534471248382.095,
-      "atime": "2018-08-17T19:44:01.440Z",
+      "atime": "2018-08-18T02:54:21.575Z",
       "mtime": "2018-08-17T02:00:48.382Z",
       "ctime": "2018-08-17T02:00:48.385Z",
       "birthtime": "2018-08-17T02:00:48.382Z"
@@ -1625,7 +1727,7 @@
       ],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "ee6b7b98847518e834e3bdf5da2e9cee",
+        "contentDigest": "9299ece989f505add582f207a61b3e68",
         "mediaType": "text/markdown",
         "type": "File",
         "description": "File \"src/posts/post.md\"",
@@ -1635,12 +1737,12 @@
       "absolutePath": "/Users/michaelcastor/projects/dreaming-of-thailand-blog/src/posts/post.md",
       "relativePath": "posts/post.md",
       "extension": "md",
-      "size": 1363,
-      "prettySize": "1.36 kB",
-      "modifiedTime": "2018-08-17T02:39:11.863Z",
-      "accessTime": "2018-08-17T19:42:14.218Z",
-      "changeTime": "2018-08-17T02:39:11.865Z",
-      "birthTime": "2018-08-17T02:39:11.862Z",
+      "size": 1368,
+      "prettySize": "1.37 kB",
+      "modifiedTime": "2018-08-17T20:30:19.937Z",
+      "accessTime": "2018-08-18T02:54:21.533Z",
+      "changeTime": "2018-08-17T20:30:19.939Z",
+      "birthTime": "2018-08-17T20:30:19.936Z",
       "root": "/",
       "dir": "/Users/michaelcastor/projects/dreaming-of-thailand-blog/src/posts",
       "base": "post.md",
@@ -1654,16 +1756,16 @@
       "gid": 20,
       "rdev": 0,
       "blksize": 4194304,
-      "ino": 12323054,
+      "ino": 12340124,
       "blocks": 8,
-      "atimeMs": 1534534934218.0215,
-      "mtimeMs": 1534473551862.6306,
-      "ctimeMs": 1534473551864.8872,
-      "birthtimeMs": 1534473551862.3699,
-      "atime": "2018-08-17T19:42:14.218Z",
-      "mtime": "2018-08-17T02:39:11.863Z",
-      "ctime": "2018-08-17T02:39:11.865Z",
-      "birthtime": "2018-08-17T02:39:11.862Z"
+      "atimeMs": 1534560861532.7856,
+      "mtimeMs": 1534537819936.6567,
+      "ctimeMs": 1534537819938.9998,
+      "birthtimeMs": 1534537819936.3328,
+      "atime": "2018-08-18T02:54:21.533Z",
+      "mtime": "2018-08-17T20:30:19.937Z",
+      "ctime": "2018-08-17T20:30:19.939Z",
+      "birthtime": "2018-08-17T20:30:19.936Z"
     },
     "/Users/michaelcastor/projects/dreaming-of-thailand-blog/src/posts/second-post.md absPath of file": {
       "id": "/Users/michaelcastor/projects/dreaming-of-thailand-blog/src/posts/second-post.md absPath of file",
@@ -1685,7 +1787,7 @@
       "size": 1200,
       "prettySize": "1.2 kB",
       "modifiedTime": "2018-08-17T18:14:09.488Z",
-      "accessTime": "2018-08-17T19:42:14.218Z",
+      "accessTime": "2018-08-18T02:54:21.533Z",
       "changeTime": "2018-08-17T18:14:09.491Z",
       "birthTime": "2018-08-17T18:14:09.488Z",
       "root": "/",
@@ -1703,11 +1805,11 @@
       "blksize": 4194304,
       "ino": 12333950,
       "blocks": 8,
-      "atimeMs": 1534534934218.0427,
+      "atimeMs": 1534560861532.8215,
       "mtimeMs": 1534529649488.3389,
       "ctimeMs": 1534529649490.7095,
       "birthtimeMs": 1534529649488.0193,
-      "atime": "2018-08-17T19:42:14.218Z",
+      "atime": "2018-08-18T02:54:21.533Z",
       "mtime": "2018-08-17T18:14:09.488Z",
       "ctime": "2018-08-17T18:14:09.491Z",
       "birthtime": "2018-08-17T18:14:09.488Z"
@@ -1730,7 +1832,7 @@
       "size": 304,
       "prettySize": "304 B",
       "modifiedTime": "2018-08-17T02:03:29.515Z",
-      "accessTime": "2018-08-17T19:44:01.440Z",
+      "accessTime": "2018-08-18T02:55:00.923Z",
       "changeTime": "2018-08-17T02:03:29.516Z",
       "birthTime": "2018-08-17T02:03:29.515Z",
       "root": "/",
@@ -1748,11 +1850,11 @@
       "blksize": 4194304,
       "ino": 12322764,
       "blocks": 8,
-      "atimeMs": 1534535041439.753,
+      "atimeMs": 1534560900922.9033,
       "mtimeMs": 1534471409515.0151,
       "ctimeMs": 1534471409515.9597,
       "birthtimeMs": 1534471409514.7588,
-      "atime": "2018-08-17T19:44:01.440Z",
+      "atime": "2018-08-18T02:55:00.923Z",
       "mtime": "2018-08-17T02:03:29.515Z",
       "ctime": "2018-08-17T02:03:29.516Z",
       "birthtime": "2018-08-17T02:03:29.515Z"
@@ -1762,9 +1864,9 @@
       "children": [],
       "parent": "/Users/michaelcastor/projects/dreaming-of-thailand-blog/src/posts/post.md absPath of file",
       "internal": {
-        "content": "---\ntitle: \"Chiang Rai City\"\ndate: \"2018-08-16\"\n---\n\n## Today was a good day!\n\nLorem ipsum dolor amet tumeric iceland pok pok williamsburg etsy portland jianbing knausgaard tousled bicycle rights crucifix listicle mixtape salvia. Literally yuccie occupy, meditation pug taiyaki hashtag. Taiyaki shaman banh mi live-edge drinking vinegar.<-- end --> Poutine synth before they sold out health goth, VHS subway tile locavore jean shorts neutra flexitarian pop-up cray woke readymade put a bird on it. Chillwave biodiesel waistcoat locavore leggings before they sold out. Chicharrones vegan waistcoat art party. Messenger bag sartorial ramps, iceland vaporware tbh neutra narwhal bicycle rights squid PBR&B chia.\n\n\n* This \n* Is\n* A \n\nLorem ipsum dolor amet tumeric iceland pok pok williamsburg etsy portland jianbing knausgaard tousled bicycle rights crucifix listicle mixtape salvia. Literally yuccie occupy, meditation pug taiyaki hashtag. Taiyaki shaman banh mi live-edge drinking vinegar. Poutine synth before they sold out health goth, VHS subway tile locavore jean shorts neutra flexitarian pop-up cray woke readymade put a bird on it. Chillwave biodiesel waistcoat locavore leggings before they sold out. Chicharrones vegan waistcoat art party. Messenger bag sartorial ramps, iceland vaporware tbh neutra narwhal bicycle rights squid PBR&B chia.\n\n* New\n* Post\n",
+        "content": "---\ntitle: \"Chiang Rai City\"\ndate: \"2018-08-16\"\n---\n\n## Today was also a good day!\n\nLorem ipsum dolor amet tumeric iceland pok pok williamsburg etsy portland jianbing knausgaard tousled bicycle rights crucifix listicle mixtape salvia. Literally yuccie occupy, meditation pug taiyaki hashtag. Taiyaki shaman banh mi live-edge drinking vinegar.<-- end --> Poutine synth before they sold out health goth, VHS subway tile locavore jean shorts neutra flexitarian pop-up cray woke readymade put a bird on it. Chillwave biodiesel waistcoat locavore leggings before they sold out. Chicharrones vegan waistcoat art party. Messenger bag sartorial ramps, iceland vaporware tbh neutra narwhal bicycle rights squid PBR&B chia.\n\n\n* This \n* Is\n* A \n\nLorem ipsum dolor amet tumeric iceland pok pok williamsburg etsy portland jianbing knausgaard tousled bicycle rights crucifix listicle mixtape salvia. Literally yuccie occupy, meditation pug taiyaki hashtag. Taiyaki shaman banh mi live-edge drinking vinegar. Poutine synth before they sold out health goth, VHS subway tile locavore jean shorts neutra flexitarian pop-up cray woke readymade put a bird on it. Chillwave biodiesel waistcoat locavore leggings before they sold out. Chicharrones vegan waistcoat art party. Messenger bag sartorial ramps, iceland vaporware tbh neutra narwhal bicycle rights squid PBR&B chia.\n\n* New\n* Post\n",
         "type": "MarkdownRemark",
-        "contentDigest": "62e6b181d13782ae6352841775a79185",
+        "contentDigest": "153e8dcfd0e78b6594be8d7894530e0b",
         "owner": "gatsby-transformer-remark",
         "fieldOwners": {
           "slug": "default-site-plugin"
@@ -1776,8 +1878,8 @@
         "_PARENT": "/Users/michaelcastor/projects/dreaming-of-thailand-blog/src/posts/post.md absPath of file",
         "parent": "/Users/michaelcastor/projects/dreaming-of-thailand-blog/src/posts/post.md absPath of file"
       },
-      "excerpt": "\n## Today was a good day!\n\nLorem ipsum dolor amet tumeric iceland pok pok williamsburg etsy portland jianbing knausgaard tousled bicycle rights crucifix listicle mixtape salvia. Literally yuccie occupy, meditation pug taiyaki hashtag. Taiyaki shaman banh mi live-edge drinking vinegar.",
-      "rawMarkdownBody": "\n## Today was a good day!\n\nLorem ipsum dolor amet tumeric iceland pok pok williamsburg etsy portland jianbing knausgaard tousled bicycle rights crucifix listicle mixtape salvia. Literally yuccie occupy, meditation pug taiyaki hashtag. Taiyaki shaman banh mi live-edge drinking vinegar.<-- end --> Poutine synth before they sold out health goth, VHS subway tile locavore jean shorts neutra flexitarian pop-up cray woke readymade put a bird on it. Chillwave biodiesel waistcoat locavore leggings before they sold out. Chicharrones vegan waistcoat art party. Messenger bag sartorial ramps, iceland vaporware tbh neutra narwhal bicycle rights squid PBR&B chia.\n\n\n* This \n* Is\n* A \n\nLorem ipsum dolor amet tumeric iceland pok pok williamsburg etsy portland jianbing knausgaard tousled bicycle rights crucifix listicle mixtape salvia. Literally yuccie occupy, meditation pug taiyaki hashtag. Taiyaki shaman banh mi live-edge drinking vinegar. Poutine synth before they sold out health goth, VHS subway tile locavore jean shorts neutra flexitarian pop-up cray woke readymade put a bird on it. Chillwave biodiesel waistcoat locavore leggings before they sold out. Chicharrones vegan waistcoat art party. Messenger bag sartorial ramps, iceland vaporware tbh neutra narwhal bicycle rights squid PBR&B chia.\n\n* New\n* Post\n",
+      "excerpt": "\n## Today was also a good day!\n\nLorem ipsum dolor amet tumeric iceland pok pok williamsburg etsy portland jianbing knausgaard tousled bicycle rights crucifix listicle mixtape salvia. Literally yuccie occupy, meditation pug taiyaki hashtag. Taiyaki shaman banh mi live-edge drinking vinegar.",
+      "rawMarkdownBody": "\n## Today was also a good day!\n\nLorem ipsum dolor amet tumeric iceland pok pok williamsburg etsy portland jianbing knausgaard tousled bicycle rights crucifix listicle mixtape salvia. Literally yuccie occupy, meditation pug taiyaki hashtag. Taiyaki shaman banh mi live-edge drinking vinegar.<-- end --> Poutine synth before they sold out health goth, VHS subway tile locavore jean shorts neutra flexitarian pop-up cray woke readymade put a bird on it. Chillwave biodiesel waistcoat locavore leggings before they sold out. Chicharrones vegan waistcoat art party. Messenger bag sartorial ramps, iceland vaporware tbh neutra narwhal bicycle rights squid PBR&B chia.\n\n\n* This \n* Is\n* A \n\nLorem ipsum dolor amet tumeric iceland pok pok williamsburg etsy portland jianbing knausgaard tousled bicycle rights crucifix listicle mixtape salvia. Literally yuccie occupy, meditation pug taiyaki hashtag. Taiyaki shaman banh mi live-edge drinking vinegar. Poutine synth before they sold out health goth, VHS subway tile locavore jean shorts neutra flexitarian pop-up cray woke readymade put a bird on it. Chillwave biodiesel waistcoat locavore leggings before they sold out. Chicharrones vegan waistcoat art party. Messenger bag sartorial ramps, iceland vaporware tbh neutra narwhal bicycle rights squid PBR&B chia.\n\n* New\n* Post\n",
       "fileAbsolutePath": "/Users/michaelcastor/projects/dreaming-of-thailand-blog/src/posts/post.md",
       "fields": {
         "slug": "/posts/post/"
@@ -1829,7 +1931,7 @@
       "size": 1055666,
       "prettySize": "1.06 MB",
       "modifiedTime": "2018-08-15T22:52:00.446Z",
-      "accessTime": "2018-08-17T19:44:01.440Z",
+      "accessTime": "2018-08-18T02:55:00.923Z",
       "changeTime": "2018-08-17T02:46:54.608Z",
       "birthTime": "2018-08-15T22:52:00.059Z",
       "root": "/",
@@ -1847,11 +1949,11 @@
       "blksize": 4194304,
       "ino": 12215185,
       "blocks": 2064,
-      "atimeMs": 1534535041439.789,
+      "atimeMs": 1534560900922.9302,
       "mtimeMs": 1534373520446.2751,
       "ctimeMs": 1534474014607.829,
       "birthtimeMs": 1534373520059.0078,
-      "atime": "2018-08-17T19:44:01.440Z",
+      "atime": "2018-08-18T02:55:00.923Z",
       "mtime": "2018-08-15T22:52:00.446Z",
       "ctime": "2018-08-17T02:46:54.608Z",
       "birthtime": "2018-08-15T22:52:00.059Z"
@@ -1886,7 +1988,7 @@
       "size": 19555308,
       "prettySize": "19.6 MB",
       "modifiedTime": "2018-02-21T18:06:26.000Z",
-      "accessTime": "2018-08-17T19:42:14.217Z",
+      "accessTime": "2018-08-18T02:54:21.532Z",
       "changeTime": "2018-08-16T23:04:07.338Z",
       "birthTime": "2018-02-21T18:06:26.000Z",
       "root": "/",
@@ -1904,11 +2006,11 @@
       "blksize": 4194304,
       "ino": 12257390,
       "blocks": 38200,
-      "atimeMs": 1534534934217.4426,
+      "atimeMs": 1534560861531.879,
       "mtimeMs": 1519236386000,
       "ctimeMs": 1534460647338.2593,
       "birthtimeMs": 1519236386000,
-      "atime": "2018-08-17T19:42:14.217Z",
+      "atime": "2018-08-18T02:54:21.532Z",
       "mtime": "2018-02-21T18:06:26.000Z",
       "ctime": "2018-08-16T23:04:07.338Z",
       "birthtime": "2018-02-21T18:06:26.000Z"
@@ -1941,7 +2043,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "9d00736c93b5477384c5a32b53f43ee9",
+        "contentDigest": "f95283d0057e9dd81514d36fa3813fc5",
         "description": "Your site's \"gatsby-node.js\"",
         "owner": "internal-data-bridge"
       }
@@ -1964,7 +2066,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "5c8985638f0a5ded8910e1e26305410b",
+        "contentDigest": "212a60207bb607ac30e8a643e4462d3e",
         "description": "Your site's \"gatsby-node.js\"",
         "owner": "internal-data-bridge"
       }
@@ -1985,7 +2087,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "7967a5bffeb069727ec7cf2c355539cf",
+        "contentDigest": "cbb30d4f015e01429365ac08be8f160b",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -2006,7 +2108,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "f8c64655dd842a29711c32d02fffba5a",
+        "contentDigest": "f3d8967ee1937a462586721102e5721a",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -2027,7 +2129,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "cf4f46265e1ec19b91bbc21fdbd6cbf1",
+        "contentDigest": "f936827d6ad91cc311ca65dbfaef06ec",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -2048,7 +2150,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "d0338611eefb3af88a089322020f1b45",
+        "contentDigest": "57e3166495d1495684345820d94355c6",
         "description": "Plugin prod-404",
         "owner": "internal-data-bridge"
       }
@@ -2056,7 +2158,7 @@
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "6be4febaa36eb0551aa1da00bb49fce4"
+    "PLUGINS_HASH": "ea58230b64e3bda01f471504638ebe41"
   },
   "componentDataDependencies": {
     "nodes": {
@@ -2078,6 +2180,9 @@
       ]
     },
     "connections": {
+      "SitePage": [
+        "/dev-404-page/"
+      ],
       "MarkdownRemark": [
         "/"
       ]
