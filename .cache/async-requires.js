@@ -17,7 +17,8 @@ exports.json = {
   "404.json": require("gatsby-module-loader?name=path---404!/Users/michaelcastor/projects/dreaming-of-thailand-blog/.cache/json/404.json"),
   "about.json": require("gatsby-module-loader?name=path---about!/Users/michaelcastor/projects/dreaming-of-thailand-blog/.cache/json/about.json"),
   "index.json": require("gatsby-module-loader?name=path---index!/Users/michaelcastor/projects/dreaming-of-thailand-blog/.cache/json/index.json"),
-  "404-html.json": require("gatsby-module-loader?name=path---404-html!/Users/michaelcastor/projects/dreaming-of-thailand-blog/.cache/json/404-html.json")
+  "404-html.json": require("gatsby-module-loader?name=path---404-html!/Users/michaelcastor/projects/dreaming-of-thailand-blog/.cache/json/404-html.json"),
+  "posts-first-post-form-netlify-cms.json": require("gatsby-module-loader?name=path---posts-first-post-form-netlify-cms!/Users/michaelcastor/projects/dreaming-of-thailand-blog/.cache/json/posts-first-post-form-netlify-cms.json")
 }
 
 exports.layouts = {

@@ -47,5 +47,12 @@
         "layoutComponentChunkName": "component---src-layouts-index-js",
         "jsonName": "404-html.json",
         "path": "/404.html"
+    },
+    {
+        "componentChunkName": "component---src-posts-post-page-js",
+        "layout": "layout---index",
+        "layoutComponentChunkName": "component---src-layouts-index-js",
+        "jsonName": "posts-first-post-form-netlify-cms.json",
+        "path": "/posts/first-post-form-netlify-cms/"
     }
 ]
